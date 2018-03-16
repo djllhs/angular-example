@@ -1,0 +1,29 @@
+body{
+    background: #f2f5f7;
+}
+.page-header{
+    background: #177ECB;
+    padding: 0 1.25rem;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.d_page_h1{
+    color: #fff;
+    font-size: 1.875rem;
+}
+.d_page_right{
+    font-size: .875rem;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+}
+.d_header_line{
+    height: 100%;
+    background: #eee;
+    width: .0625rem;
+    display: inline-block;
+    margin: 0 .625rem;
+}
