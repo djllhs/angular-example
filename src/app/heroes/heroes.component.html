@@ -1,0 +1,25 @@
+<!-- 绑定表达式中的 uppercase 位于管道操作符（ | ）的右边，
+  用来调用内置管道 UppercasePipe。
+  管道 是格式化字符串、金额、日期和其它显示数据的好办法。 
+  Angular 发布了一些内置管道，而且你还可以创建自己的管道。
+-->
+<!-- <div>
+  <label for=''>name:
+    <input [(ngModel)]='hero.name'>
+  </label>
+</div> -->
+
+<div>
+  <label>name:
+    <input [(ngModel)]="hero.name" placeholder="name">
+    {{hero.name}}
+  </label>
+</div>
+
+<h2>代美女些</h2>
+<ul >
+  <li *ngFor="let hero of heroes" class="li_item">
+    <span>{{hero.id}}</span>
+    <span>{{hero.name}}</span>
+  </li>
+</ul>

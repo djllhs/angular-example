@@ -1,0 +1,11 @@
+
+ul{
+    list-style: none;
+    padding: 0;
+    
+}
+.li_item{
+    padding: 1.25rem .625rem;
+    background: #f2f5f7;
+    margin-bottom: .625rem;
+}
